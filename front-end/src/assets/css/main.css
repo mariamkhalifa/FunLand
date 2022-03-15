@@ -1,0 +1,9 @@
+:root {
+    --orange: #FFA500;
+    --blue-l: #5FBEC2;
+    --blue-d: #0A3A48;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,82 @@
+[
+	{
+		"name": "Roller Coaster",
+		"image": "roller-coaster.jpg",
+		"restrictions": [{
+			"height": "51 inches (130 cm)",
+			"other": "heart condition and pregnant are not allowed."
+		}],
+		"price": "$20",
+		"desc": "Our roller coaster is 5 kilometers long with many steep curves and slopes. Exhilirating ride that is sure to pump you with adrenaline."
+	},
+	{
+		"name": "Ferris Wheel",
+		"image": "ferris-wheel.jpg",
+		"restrictions": [{
+			"height": "51 inches (130 cm)",
+			"other": ""
+		}],
+		"price": "$15",
+		"desc": "At a height of 541 ft (165 meters), you're going to get an amazing view of the whole park. Just don't look down if your'e afraid of heights!"
+	},
+	{
+		"name": "Bumper Cars",
+		"image": "bumper-cars.jpg",
+		"restrictions": [{
+			"height": "less than 40 inches must be accompanied by an adult.",
+			"other": "pregnant are not allowed."
+		}],
+		"price": "$11",
+		"desc": "Great fun for the whole family. With our large number of cars, you'r sure to bump into someone. Prepare to giggle."
+	},
+	{
+		"name": "Carousel",
+		"image": "carousel.jpg",
+		"restrictions": [{
+			"height": "",
+			"other": ""
+		}],
+		"price": "$10",
+		"desc": "Who doesn't love a good carousel ride? Prepare to have a blast no matter how old you are."
+	},
+	{
+		"name": "Waterfall",
+		"image": "waterfall.jpg",
+		"restrictions": [{
+			"height": "40 inches (100 cm)",
+			"other": "heart condition and pregnant are not allowed."
+		}],
+		"price": "$20",
+		"desc": "Screma and get wet as you ride a mini roller coaster ride straight into a pool."
+	},
+	{
+		"name": "Pendulum",
+		"image": "pendulum.jpg",
+		"restrictions": [{
+			"height": "51 inches (130 cm)",
+			"other": "heart condition and pregnant are not allowed."
+		}],
+		"price": "$20",
+		"desc": "Are you a risk lover? Not for the faint of heart. At a height of 300 feet (91 meters) you're sure to be screaming from joy."
+	},
+	{
+		"name": "Arcades",
+		"image": "arcades.jpg",
+		"restrictions": [{
+			"height": "",
+			"other": ""
+		}],
+		"price": "variable",
+		"desc": "Tired of all the screaming? Chill with some arcade games. Our hall has a huge collection taht is guaranteed to satisfy everyone."
+	},
+	{
+		"name": "Restaurant",
+		"image": "restaurant.jpg",
+		"restrictions": [{
+			"height": "",
+			"other": ""
+		}],
+		"price": "variable",
+		"desc": "Are you hungry after all the fun? SIt at our restaurant and enjoy pizza, sandwiches, drinks or dessert."
+	}
+]
