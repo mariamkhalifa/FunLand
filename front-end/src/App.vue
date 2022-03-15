@@ -1,10 +1,10 @@
 <template>
     <div>
         <h1 class="hidden">Fun Land</h1>
-        <header>
-            <img src="/static/logo.svg" alt="logo">
+        <header id="header">
+            <img id="logo" src="/static/logo.svg" alt="logo">
             <nav>
-                <h2>Main Navigation</h2>
+                <h2 class="hidden">Main Navigation</h2>
                 <nav-links></nav-links>
             </nav>
         </header>
@@ -39,10 +39,14 @@ export default {
 </script>
 
 <style lang="scss">
-    header {
-        background-color: var(orange);
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
     }
-    img {
-        width: 150px;
+
+    #logo {
+        width: 200px;
     }
 </style>
