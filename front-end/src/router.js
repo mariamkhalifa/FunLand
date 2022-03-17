@@ -22,5 +22,10 @@ export default new Router({
       path: "/attraction/:id", 
       component: Attraction
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return {
+      top: 0
+    }
+  }
 });

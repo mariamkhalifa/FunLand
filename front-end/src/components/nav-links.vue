@@ -24,8 +24,9 @@ export default {
 
         a {
             padding: 15px 30px;
+            font-family: var(--title-font);
             transition: all .5s ease-in-out;
-            font-size: 20px;
+            font-size: 24px;
             color: var(--white);
             background-color: var(--blue-d);
             border-radius: 5px;

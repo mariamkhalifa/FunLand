@@ -2,36 +2,40 @@
 	{
 		"name": "Roller Coaster",
 		"image": "roller-coaster.jpg",
+		"thumb": "roller-coaster-thumb.jpg",
 		"restrictions": [{
 			"height": "51 inches (130 cm)",
 			"other": "heart condition and pregnant are not allowed."
 		}],
 		"price": "$20",
-		"desc": "Our roller coaster is 5 kilometers long with many steep curves and slopes. Exhilirating ride that is sure to pump you with adrenaline."
+		"desc": "Our roller coaster is 5 kilometers long with many steep curves and slopes. An exhilirating ride that is sure to pump you with adrenaline."
 	},
 	{
 		"name": "Ferris Wheel",
 		"image": "ferris-wheel.jpg",
+		"thumb": "ferris-wheel-thumb.jpg",
 		"restrictions": [{
 			"height": "51 inches (130 cm)",
 			"other": ""
 		}],
 		"price": "$15",
-		"desc": "At a height of 541 ft (165 meters), you're going to get an amazing view of the whole park. Just don't look down if your'e afraid of heights!"
+		"desc": "At a height of 541 ft (165 meters), you're going to get an amazing view of the whole park. Just don't look down if you're afraid of heights!"
 	},
 	{
 		"name": "Bumper Cars",
 		"image": "bumper-cars.jpg",
+		"thumb": "bumper-cars-thumb.jpg",
 		"restrictions": [{
 			"height": "less than 40 inches must be accompanied by an adult.",
 			"other": "pregnant are not allowed."
 		}],
 		"price": "$11",
-		"desc": "Great fun for the whole family. With our large number of cars, you'r sure to bump into someone. Prepare to giggle."
+		"desc": "Great fun for the whole family. With our large number of cars, you're sure to bump into someone. Prepare to giggle."
 	},
 	{
 		"name": "Carousel",
 		"image": "carousel.jpg",
+		"thumb": "carousel-thumb.jpg",
 		"restrictions": [{
 			"height": "",
 			"other": ""
@@ -42,41 +46,45 @@
 	{
 		"name": "Waterfall",
 		"image": "waterfall.jpg",
+		"thumb": "waterfall-thumb.jpg",
 		"restrictions": [{
 			"height": "40 inches (100 cm)",
 			"other": "heart condition and pregnant are not allowed."
 		}],
 		"price": "$20",
-		"desc": "Screma and get wet as you ride a mini roller coaster ride straight into a pool."
+		"desc": "Scream and get wet as you ride a mini roller coaster ride straight into a pool."
 	},
 	{
 		"name": "Pendulum",
 		"image": "pendulum.jpg",
+		"thumb": "pendulum-thumb.jpg",
 		"restrictions": [{
 			"height": "51 inches (130 cm)",
 			"other": "heart condition and pregnant are not allowed."
 		}],
 		"price": "$20",
-		"desc": "Are you a risk lover? Not for the faint of heart. At a height of 300 feet (91 meters) you're sure to be screaming from joy."
+		"desc": "Are you a risk lover? This ride is not for the faint of heart. At a height of 300 feet (91 meters) you're sure to be screaming from joy."
 	},
 	{
 		"name": "Arcades",
 		"image": "arcades.jpg",
+		"thumb": "arcades-thumb.jpg",
 		"restrictions": [{
 			"height": "",
 			"other": ""
 		}],
 		"price": "variable",
-		"desc": "Tired of all the screaming? Chill with some arcade games. Our hall has a huge collection taht is guaranteed to satisfy everyone."
+		"desc": "Tired of all the screaming? Chill with some arcade games. Our hall has a huge collection that is guaranteed to satisfy everyone."
 	},
 	{
 		"name": "Restaurant",
 		"image": "restaurant.jpg",
+		"thumb": "restaurant-thumb.jpg",
 		"restrictions": [{
 			"height": "",
 			"other": ""
 		}],
 		"price": "variable",
-		"desc": "Are you hungry after all the fun? SIt at our restaurant and enjoy pizza, sandwiches, drinks or dessert."
+		"desc": "Are you hungry after all the fun? Sit at our restaurant and enjoy a pizza, sandwiches, drinks or dessert."
 	}
 ]

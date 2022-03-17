@@ -8,7 +8,9 @@
                 <nav-links></nav-links>
             </nav>
         </header>
-        <router-view :attractions="attractions" />
+        <transition name="slide-fade">
+            <router-view :attractions="attractions" />
+        </transition>
     </div>
 </template>
 
@@ -22,7 +24,7 @@ export default {
 
     data() {
         return {
-             attractions: []
+            attractions: []
         }
     },
 
@@ -49,4 +51,24 @@ export default {
     #logo {
         width: 200px;
     }
+
+    .slide-fade-enter-active {
+        transition: all .5s ease;
+    }
+
+    .slide-fade-leave-active {
+        transition: all .5 ease-in-out;
+    }
+
+    .slide-fade-enter, .slide-fade-leave-to {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    @media screen and (min-width: 700px) {
+        #header {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    } 
 </style>

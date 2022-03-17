@@ -50,7 +50,7 @@ table {
 
 /* main CSS */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito:wght@300;400&display=swap');
 
 :root {
     --orange: #FFA500;
@@ -59,16 +59,29 @@ table {
     --black: #272728;
     --white: #fff;
     --body-font: 'Nanito', sans-serif;
-    --title-font: 'Ubunto', sans-serif;;
+    --title-font: 'Bubblegum Sans', sans-serif;
 }
 
 body {
     color: var(--black);
     font-family: var(--body-font);
+    font-size: 18px;
+    line-height: 24px;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: var(--title-font);
+    color: var(--blue-d);
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 44px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 40px;
 }
 
 a {
@@ -80,3 +93,14 @@ a {
     display: none;
 }
 
+@media screen and (min-width:700px) {
+    h2 {
+        font-size: 48px;
+        line-height: 50px;
+    } 
+
+    h3 {
+        font-size: 44px;
+        line-height: 48px;
+    }
+}
